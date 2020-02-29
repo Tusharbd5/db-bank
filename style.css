@@ -1,0 +1,48 @@
+@font-face{
+    src: url(fonts/AlfaSlabOne-Regular.ttf);
+    font-family: Alfas;
+}
+@font-face{
+    src: url(fonts/KronaOne-Regular.ttf);
+    font-family: Krona;
+}
+body{
+    padding: 100px;
+}
+.submit-area{
+    margin-top: 100px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px gray;
+    padding: 50px;
+}
+.submit-area h3{
+    font-family: Krona;
+}
+.bank-title{
+    font-family: Krona;
+    font-weight: 600;
+    text-align: center;  
+}
+#trans-area{
+    display: none;   
+}
+.deposit{
+    background-color: slateblue;
+
+    
+}
+.withdraw{
+    background-color: lightsalmon;
+    
+}
+.balance{
+    background-color: orange;
+}
+.status{
+    margin: 60px;
+    border-radius: 20px;
+    color: white;
+    height: 120px;
+    padding: 20px;
+}
+
